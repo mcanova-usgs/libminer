@@ -4,7 +4,7 @@
 \alias{lib_summary}
 \title{R Library Summary}
 \usage{
-lib_summary()
+lib_summary(sizes = FALSE)
 }
 \value{
 A \code{data.frame} containing a count of the packages in each of the user's
@@ -12,4 +12,8 @@ libraries.
 }
 \description{
 Provides a brief summary of the packages installed on your machine.
+}
+\examples{
+lib_summary()
+lib_summary(sizes = TRUE)
 }
